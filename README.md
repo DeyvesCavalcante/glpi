@@ -8,5 +8,5 @@
 * Acessar o mysql com usuário root
 * mysql -uroot -p
 * Executar os comandos abaixo:
-* `GRANT SELECT ON `mysql`.`time_zone_name` TO 'seu_usuario_aqui'@'localhost'`;
+* `GRANT SELECT ON ``mysql`.`time_zone_name` `TO 'seu_usuario_aqui'@'localhost'`;
 * `FLUSH PRIVILEGES`;  
