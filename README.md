@@ -3,7 +3,7 @@
 
 * Antes de iniciar a instalação efetuar backup do banco de dados e da pasta glpi.
 * Salvar a script na pasta /tmp e executar nessa pasta.
-* Necessário permissão  ao usuário glpi no banco de dados mysql/mariadb na tabela mysql.time_zone_name.
+* Necessário permissão  ao usuário glpi no banco de dados mysql/mariadb na tabela (mysql.time_zone_name).
 `mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -p -u root mysql`
 * Acessar o mysql com usuário root
 * mysql -uroot -p
