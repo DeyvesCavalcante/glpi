@@ -28,7 +28,7 @@ services:
           memory: 512M
 
   glpi:
-    image: rosnertech/10.0.18
+    image: deyvescavalcante/10.0.18
     container_name: glpi-app
     restart: always
     environment:
