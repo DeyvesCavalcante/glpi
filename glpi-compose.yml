@@ -16,9 +16,9 @@ services:
     volumes:
        - "./storage/mysql:/var/lib/mysql"
     environment:
-      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
-      MYSQL_DATABASE: "glpi"
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "db_glpi"
       MYSQL_USER: "glpi"
       MYSQL_PASSWORD: "glpi"
-    expose:
-      - "3306"
+    ports:
+      - "35.223.212.9:3306"
